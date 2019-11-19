@@ -14,7 +14,7 @@ namespace TestNet.Entidades {
         public string Cedula { get; set; }
 
         public string Direccion { get; set; }
-        public int EmpleoId { get; set; }
+        public int? EmpleoId { get; set; }
         public Empleo Empleo { get; set; }
         public List<PersonaContacto> PersonaContactos { get; set; }
     }
